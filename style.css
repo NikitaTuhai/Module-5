@@ -1,0 +1,340 @@
+.wrapper-one {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  width: 1170px;
+  height: 690px;
+  padding: 0px 0px 15px 0px;
+  margin: auto;
+}
+
+.site-name {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 38px;
+}
+.site-name::first-letter {
+  color: #1abc9c;
+}
+.clear1 {
+  clear: left;
+}
+
+.main {
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: right;
+}
+.main-menu {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 510px;
+  margin-top: 43px;
+}
+
+.main-menu-item {
+  display: inline-block;
+}
+
+.main-menu-item a {
+  text-decoration: none;
+  color: #000000;
+  padding-left: 30px;
+}
+
+.main-menu-item a:hover {
+  color: #48c9b0;
+}
+
+.main-menu-item a .main-menu-item a:hover .featured {
+  text-transform: uppercase;
+}
+
+.gallery{z-index: 3;
+    width: 100%;
+    height: 600px;
+    background-image:  url(img/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left:0px;
+    top:90px;
+}
+.wrapper2{position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -67%);
+    margin: auto;
+}
+.gallery-title{word-wrap: normal;
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+font-size: 60px;
+width: 800px;
+margin-bottom: 0;
+}
+.gallery-list{
+    font-family: "Roboto",sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top:  0;
+}
+
+.left-button{
+position: absolute;
+color: #ffffff;
+left: -145px;
+top: 60px;
+width: 100px;
+height: 100px;
+text-align: center;
+cursor: pointer;
+background-color: rgba(85, 166, 142, 0.651);
+line-height: 1px;
+font-size: 50px;
+}
+.right-button{
+    position: absolute;
+    color: #ffffff;
+    right: -145px;
+    top: 60px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(85, 166, 142, 0.651);
+    line-height: 1px;
+    font-size: 50px;
+    }
+
+    .wripper-two{height: 750px;
+        margin: auto;
+        background-image:  url(img/Снимок1.PNG);   
+     }
+        
+        
+        .wripper-three{
+            box-sizing: border-box;
+            width: 1170px;
+  height: 562px;
+  padding: 0px 0px 15px 0px;
+  margin: auto;
+        }
+
+
+    .blog-news {text-align: center;
+        color: #515151;
+        font-family: "Roboto";
+        font-size: 38px;
+text-transform: uppercase;
+margin-bottom: 0;
+padding-top: 100px;
+    }
+    
+
+    .line {
+        text-align: center;
+        padding-top: -10px;
+        padding-bottom: 80px;}
+
+    h2{margin: 0;}
+
+    
+.product1 {color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Roboto",sans-serif ;
+    display: inline-block;
+    margin: 15px 15px 15px 15px;
+    font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+position: relative;
+}
+
+    .name {
+        display: inline-block;
+        margin: 15px 67px 14px 14px;
+        width: 135px;
+      }
+      .price {
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 13px;
+      }
+      .product1:hover .box1 {
+        background-color: #1abc9c;
+      }
+      .product1:hover .box2 {
+        background-color: #7fd9c7;
+      }
+      
+      .clear {
+        clear: left;}
+
+        .product-img {
+            margin-bottom: -4px;}
+        
+.box1 {
+    background-color: #323232;
+    margin: right 0px;
+    width: 80%;
+    height: 40px;
+    float: left;
+    text-align: justify;
+  }
+  .box2 {
+    background-color: #8c8c8c;
+    width: 20%;
+    height: 40px;
+    float: right;
+    text-align: justify;}
+
+    .icon{
+      width: 38px;
+      height: 38px;}
+
+      .icon-add{
+        position: absolute;
+        left: 8px;
+        top: 5px;
+        width: 35px;
+        height: 35px;
+        
+      }
+      .item-1{
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 34px;
+        top: 80px;
+        border: 1px solid white;}
+
+        .item-2{
+          cursor: pointer;
+          width: 50px;
+          height: 50px;
+          position: absolute;
+          left: 93px;
+          top: 80px;
+          border: 1px solid white;
+          margin-right: 9px;
+      }
+
+      .item-3{
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 152px;
+        top: 80px;
+        border: 1px solid white;
+        margin-right: 9px;
+    }
+
+    .item-add{
+      cursor: pointer;
+      text-align: center;
+      color: white;
+      font-family: 'OpenSans', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      background-color: transparent;
+      width: 168px;
+      height: 50px;
+      outline: none;
+      position: absolute;
+      left: 34px;
+      top: 140px;
+      border: 1px solid white;
+      margin-right: 9px;
+    }
+    .span-add{
+      position: absolute;
+      left: 50px;
+      top: 15px;}
+
+
+      .hover-card{position: absolute;
+        width: 335px;
+        height: 261px;
+        background-color: rgb(0, 0, 0, 0.5);
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+        display: none;  
+        
+    }
+
+
+
+    a{
+      text-decoration: none;   
+    }
+    
+    
+    .item-1:hover{
+        
+        background-color: rgb(26, 188, 156);
+        transition: 0.5s;
+    }
+    .item-2:hover{
+        
+        background-color: rgb(26, 188, 156);
+        transition: 0.5s;
+    }
+    .item-3:hover{
+        
+        background-color: rgb(26, 188, 156);
+        transition: 0.5s;
+    }
+    
+    .nav-bar:hover{
+        color: #1abc9c;
+    }
+    
+    .product1:hover .hover-card{
+        position: absolute;
+        width: 235px;
+        height: 261px;
+        background-color: rgb(0, 0, 0, 0.5);
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px; 
+        display: block;
+        transition: 0.5s;
+    }
+    
+    .item-add:hover {
+        cursor: pointer;
+        background-color: #323232;
+        transition: 0.5s;
+    }
+
+    footer{
+      width: 100%;
+      height: 55px;
+      background-color: rgb(50,50,50);
+      padding-top: 46px;
+  }
+  footer{
+    
+    bottom: 2px;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(50,50,50);
+    padding-top: 46px;
+}
+.contact{
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
